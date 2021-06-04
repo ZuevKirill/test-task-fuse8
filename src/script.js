@@ -84,7 +84,7 @@ function searchItem(elems, val){
             totalHide--
         }
     })
-    if(elems.length === totalHide*1 && val.length >= 2){
+    if(elems.length === totalHide*1){
         preview.after(nodata)
         showNoData = true
     }
